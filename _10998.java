@@ -9,12 +9,11 @@ public class _10998 {
 		Scanner sc = new Scanner(System.in);
 		int one = sc.nextInt();
 		int two = sc.nextInt();
-		int mul;
+		sc.close();
 	
 		if(one > 0 && two < 10) {
-			mul = one * two;
+			int mul = one * two;
 			System.out.println(mul);
 		}
-		sc.close();
 	}
 }
