@@ -9,10 +9,8 @@ public class Main {
 		
 		minute -= 45;
 		if(minute < 0) {
-			hour -= 1;
+			hour = (hour == 0)? 23 : hour - 1;
 			minute += 60;
-			if(hour < 0)
-				hour = 23;
 		}
 		
 		System.out.printf("%d %d", hour, minute);
