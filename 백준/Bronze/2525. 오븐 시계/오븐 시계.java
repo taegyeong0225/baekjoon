@@ -14,16 +14,10 @@ public class Main {
 		sc.close();
 		
 		int rMinute = minute + time;
+		int rHour = (hour + (rMinute / 60)) % 24;
+        
+        rMinute = rMinute % 60;
 		
-		// 시간을 더하니 60분 이상인 경우
-		if(rMinute >= 60) {
-			// 기존 시간 + 60으로 나눈 몫(더해질 시간
-			// % 24로 24시가 나올 경우 0시로 표기
-			int rHour = (hour + (rMinute/60)) % 24;
-			rMinute = rMinute % 60;
-			System.out.printf("%d %d", rHour, rMinute);
-		}
-		else // else를 안쓸 시 if문을 실행하고도 밑 문장을 실행하게 된다
-			System.out.printf("%d %d", hour, rMinute);
+		System.out.printf("%d %d", rHour, rMinute);
 	}
 }
