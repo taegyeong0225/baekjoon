@@ -6,7 +6,6 @@
 	<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" />
 </div>
 
-</div>
 [![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=taegeong)](https://solved.ac/taegeong)
 [![solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=taegeong)](https://solved.ac/taegeong)
 
