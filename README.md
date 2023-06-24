@@ -1,5 +1,8 @@
-# baekjoon
-<P class = "expl">problem solving collection</P>
+<div align="center">
+    <h1>baekjoon</h1>
+    <P class = "expl">problem solving collection</P>
+</div>
+
 
 <div align="center">
 	<div align="center">
@@ -15,7 +18,23 @@
 			<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftaegyeong0225&count_bg=%23F9A2A2&title_bg=%23888888&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" />
    		 </a>
 	</div> 
+ </div> 
+
+
+
+
+<div align="center">
+	<br> 🎳 About Me 🎳 <br>
+    <a class="insta" href="https://www.instagram.com/taegyeong0225">
+        <img src="https://img.shields.io/badge/instagram-pink?style=flat&logo=instagram&logoColor=white"/>
+    </a>
 </div>
+
+
+
+
+
+
 
 [![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=taegeong)](https://solved.ac/taegeong)
 
