@@ -1,7 +1,7 @@
 # baekjoon
 <P class = "expl">problem solving collection</P>
 <div align="center">
-	<img alt="Java" src ="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"/>
+	<img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"/>
 	<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
 	<img src="https://img.shields.io/badge/CSS3-1E90FF?style=flat&logo=CSS3&logoColor=white" />
 	<img src="https://img.shields.io/badge/python-1572B6?style=flat&logo=CSS3&logoColor=white" />
