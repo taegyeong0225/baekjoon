@@ -5,6 +5,7 @@
 	<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
 	<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" />
 </div>
+https://img.shields.io/badge/python-pink?style=for-the-badge&logo=python&logoColor=white
 
 [![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=taegeong)](https://solved.ac/taegeong)
 [![solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=taegeong)](https://solved.ac/taegeong)
