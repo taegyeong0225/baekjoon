@@ -2,7 +2,7 @@ package conditional_statement;
 
 import java.util.Scanner;
 
-public class _2884_ver1 {
+public class _2884_1st {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int hour = sc.nextInt();

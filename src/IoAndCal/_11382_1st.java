@@ -3,7 +3,7 @@ package IoAndCal;
 
 import java.util.Scanner;
 
-public class _11382_ver1 {
+public class _11382_1st {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();

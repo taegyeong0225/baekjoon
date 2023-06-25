@@ -2,7 +2,7 @@ package conditional_statement;
 
 import java.util.Scanner;
 
-public class _2525_ver1 {
+public class _2525_1st {
 	public static void main(String[] args) {
 		// 과정 1. 시간 입력 세 개 받기 (시, 분, 시간(분))
 		// 과정 2. 분 + 시간
