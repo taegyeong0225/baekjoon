@@ -1,4 +1,4 @@
-// ºü¸¥ A+B
+// ë¹ ë¥¸ A+B
 package repeat;
 
 import java.io.BufferedReader;
@@ -6,22 +6,30 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class _15552 {
+	// BufferedReaderë¥¼ ì‚¬ìš©í•˜ê¸° ìœ„í•´ì„œëŠ” throws IOExceptionì„ í•´ ì£¼ì–´ì•¼ í•¨.
 	public static void main(String[] args) throws IOException {
-		// BufferedReader¸¦ »ç¿ëÇÏ±â À§ÇØ¼­´Â throws IOExceptionÀ» ÇØ ÁÖ¾î¾ß ÇÔ.
 		
-		// BufferedReader ¼±¾ğ
+		// BufferedReader ì„ ì–¸
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		// ¸î ÁÙÀ» ¹ŞÀ» Áö ¼³Á¤
+		// ëª‡ ì¤„ì„ ë°›ì„ ì§€ ì„¤ì •
 		int row = Integer.parseInt(br.readLine());
-		int[] arr = new int[row];
 		
-		/* 1. for row¼ö ¸¸Å­ ÀĞ¾î¿À´Â °Í ¹İº¹
-		 * 2. 	ÀĞ¾î¿Â ÁÙ¿¡ ÀÖ´Â °É splitÇØ¼­ µÎ °³¸¦ ¹è¿­¿¡ ´ãÀ½
-		 * 3. 	±×°Å µÎ °³¸¦ ´õÇØ¼­ Ãâ·ÂÇÔ
+		/* 
+		 * 1. for row ìˆ˜ ë§Œí¼ ì½ì–´ì˜¤ëŠ” ê²ƒ ë°˜ë³µ
+		 * 2. 	ì½ì–´ì˜¨ ì¤„ì— ìˆëŠ” ê±¸ split í•´ì„œ ë‘ ê°œë¥¼ ë°°ì—´ì— ë‹´ìŒ
+		 * 3. 	ê·¸ê±° ë‘ ê°œë¥¼ ë”í•´ì„œ ì¶œë ¥í•¨
 		*/
 		
-		// ¿­¾îÁØ Buffer ´İ±â
+		for(int i = 0; i < row; i++) {
+			String line = br.readLine();	// í•œ ì¤„ ì½ìŒ
+			String[] arg = line.split(" "); // ì—°ì‚°ì ë‘ ê°œë¡œ ë‚˜ëˆ”
+			int sum;
+			sum = Integer.parseInt(arg[0]) + Integer.parseInt(arg[1]);
+			System.out.println(sum);
+		}
+		
+		// ì—´ì–´ì¤€ Buffer ë‹«ê¸°
 		br.close();
 	}
 }
