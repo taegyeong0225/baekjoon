@@ -43,8 +43,21 @@
 # 2023.12.21
 사용 언어 - JAVA 8
 
-- readLine()은 반환값이 Strin임
+### String끼리의 덧셈 ( -> StringBuilder 이용으로 시간 단축 필요)
+- 문자열 특성 : + 연산자로 문자열을 결합하면 새로운 String 인스턴스가 생성됨 (인스턴스 내용 변경 X, 새로운 인스턴스 생성)
+- StringBuffer는 내용 변경 가능 (인스턴스 생성시 적절한 길이의 char형 배열 생성, 이 공간을 문자열을 저장하고 편집할 수 있는 공간(버퍼)로 사용)
+<a href="https://dkswnkk.tistory.com/584">참고 블로그</a>
+
+### BufferedReader 클래스
+- readLine()은 반환값이 String임
 - 예외처리를 무조건 해주어야 함
+
+### StringTokenizer 클래스
+- BufferedReader 메서드로 입력 받기 -> 라인 단위
+- 문자열을 여러 개의 토큰으로 분리하는 클래스
+  
+- StringTokenizer는 java.util에 포함되어 있는 클래스, 빈 문자열을 토큰으로 인식 X, 반환값이 문자열
+- split는 String 클래스에 속해있는 메소드, 빈 문자열을 토큰으로 인식, 반환값이 문자열 배열
   
   ```java
   import java.io.IOException;
