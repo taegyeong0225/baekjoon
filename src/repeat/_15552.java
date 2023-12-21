@@ -2,12 +2,13 @@
 package repeat;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.IOException;
+import java.util.StringTokenizer;
 
 public class _15552 {
-	// BufferedReader를 사용하기 위해서는 throws IOException을 해 주어야 함.
 	public static void main(String[] args) throws IOException {
+		// BufferedReader를 사용하기 위해서는 throws IOException을 해 주어야 함.
 		
 		// BufferedReader 선언
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,12 +22,13 @@ public class _15552 {
 		 * 3. 	그거 두 개를 더해서 출력함
 		*/
 		
-		for(int i = 0; i < row; i++) {
-			String line = br.readLine();	// 한 줄 읽음
-			String[] arg = line.split(" "); // 연산자 두 개로 나눔
-			int sum;
-			sum = Integer.parseInt(arg[0]) + Integer.parseInt(arg[1]);
-			System.out.println(sum);
+		StringTokenizer st;
+		
+		for(int i = 0; i < row + 1; i++) {
+			st = new StringTokenizer(br.readLine()," ");
+			int a  = Integer.parseInt(st.nextToken());
+			int b = Integer.parseInt(st.nextToken());
+			System.out.println(a + b);
 		}
 		
 		// 열어준 Buffer 닫기
