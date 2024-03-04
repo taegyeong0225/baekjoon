@@ -1,0 +1,3 @@
+-- 동물의 이름은 몇 개인지
+SELECT COUNT(DISTINCT NAME) as count
+FROM ANIMAL_INS;
