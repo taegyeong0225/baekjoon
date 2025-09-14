@@ -1,0 +1,11 @@
+-- mysql
+
+-- 09:00부터 19:59까지
+-- 각 시간대별로 입양이 몇 건이나 발생했는지 조회하는 SQL문
+-- 시간대 순으로 정렬
+SELECT HOUR(DATETIME), COUNT(DATETIME)
+FROM ANIMAL_OUTS
+WHERE HOUR(DATETIME) >= 9
+AND HOUR(DATETIME) < 20
+GROUP BY 1
+ORDER BY 1 ASC;
